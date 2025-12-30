@@ -1,3 +1,5 @@
+package model;
+
 public abstract class Socio extends Persona implements IAccionesSocio {
     private int partidosVisitados;
 

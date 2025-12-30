@@ -1,3 +1,5 @@
+package model;
+
 public class SocioAbonado extends Socio {
     private final boolean esAbonado = true;
 
@@ -10,7 +12,7 @@ public class SocioAbonado extends Socio {
     }
 
     public void irAlEstadio() {
-        System.out.println("Pagar Abono Mensual, valor es = " + ABONO_MENSUAL);
+        System.out.println("Pagar Abono Mensual, valor es = " + EstadioEquipo.ABONO_MENSUAL);
     }
 
 }
