@@ -13,6 +13,12 @@ public class SocioAbonado extends Socio {
 
     public void irAlEstadio() {
         System.out.println("Pagar Abono Mensual, valor es = " + EstadioEquipo.ABONO_MENSUAL);
+        aumentarPartidoVisitado();
+    }
+
+    @Override
+    public boolean esAbonado() {
+        return this.esAbonado;
     }
 
 }

@@ -18,4 +18,10 @@ public abstract class Socio extends Persona implements IAccionesSocio {
         super.presentarse();
         System.out.println("He visitado " + this.partidosVisitados + " partidos. ");
     }
+
+    public abstract boolean esAbonado();
+
+    public void aumentarPartidoVisitado() {
+        this.partidosVisitados += 1;
+    }
 }

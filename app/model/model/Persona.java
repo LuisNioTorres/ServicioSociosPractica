@@ -14,4 +14,12 @@ public abstract class Persona {
     public void presentarse() {
         System.out.println("Mi nombre es " + this.nombre + " con cedula " + this.cedula);
     }
+
+    public String getCedula() {
+        return this.cedula;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
